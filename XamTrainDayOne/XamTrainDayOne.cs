@@ -11,7 +11,8 @@ namespace XamTrainDayOne
 			// The root page of your application
 			//MainPage = new CodePage();
 			//MainPage = new XamlPage();
-			MainPage = new UInteractionEx();
+			//MainPage = new UInteractionEx();
+			MainPage = new UIInteractionCodeEx();
 		}
 
 		protected override void OnStart ()
